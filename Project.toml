@@ -1,0 +1,9 @@
+name = "FinancialInstruments"
+uuid = "fc5b99d0-3725-11e9-2623-bf561589b708"
+authors = ["Eric Forgy <Eric.Forgy@coherentasia.com>"]
+version = "0.1.0"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Entities = "d68c5960-3734-11e9-0c07-a30dcbe4dda4"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
