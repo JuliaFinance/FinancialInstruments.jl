@@ -4,10 +4,9 @@ using Reexport, Dates
 @reexport using Entities
 export FinancialInstrument
 
-struct FinancialInstrument
+struct FinancialInstrument{C<:Currency}
     name::String
-    currency::Currency
-    issuer::Entity
+    issuer::Entity{C}
     issued::DateTime
 end
 
