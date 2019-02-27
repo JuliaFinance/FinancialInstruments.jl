@@ -2,12 +2,15 @@ module FinancialInstruments
 
 using Reexport, Dates
 @reexport using Entities
-export FinancialInstrument
+export FinancialInstrument, Cash
 
-struct FinancialInstrument{C<:Currency}
-    name::String
-    issuer::Entity{C}
-    issued::DateTime
+abstract type FinancialInstrument end
+
+struct Cash{C<:Currency} <: FinancialInstrument end
+Cash(c::C) where C<:Currency = Cash{C}()
+
+for (sym,ccy) in Currencies.list
+    @eval FinancialInstruments $sym = Cash($ccy)
 end
 
 end # module
