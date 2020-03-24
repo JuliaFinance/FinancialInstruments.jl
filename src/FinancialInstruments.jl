@@ -1,8 +1,8 @@
 module FinancialInstruments
 
-using Reexport, Dates
-@reexport using Currencies
-export FinancialInstrument, Cash
+using Dates
+using Currencies
+export FinancialInstrument, Cash, Currencies
 
 abstract type FinancialInstrument end
 
