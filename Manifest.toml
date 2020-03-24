@@ -2,7 +2,7 @@
 
 [[Currencies]]
 deps = ["DelimitedFiles"]
-git-tree-sha1 = "033fd6e1903935bad63a6f1ed0593d2ebcdea012"
+path = "../Currencies"
 uuid = "0fd90b74-7c1f-579e-9252-02cd883047b9"
 version = "0.12.0"
 
@@ -20,13 +20,6 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 [[Printf]]
 deps = ["Unicode"]
 uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-
-[[Reexport]]
-git-tree-sha1 = "7b1d07f411bc8ddb7977ec7f377b97b158514fe0"
-repo-rev = "master"
-repo-url = "https://github.com/EricForgy/Reexport.jl"
-uuid = "189a3867-3050-52da-a836-e630ba90ab69"
-version = "0.2.0+"
 
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
