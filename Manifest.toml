@@ -1,5 +1,11 @@
 # This file is machine-generated - editing it directly is not advised
 
+[[Countries]]
+deps = ["Currencies", "DelimitedFiles"]
+path = "../Countries"
+uuid = "82bc9f9d-56a2-5453-b677-633a29649040"
+version = "0.1.0"
+
 [[Currencies]]
 deps = ["DelimitedFiles"]
 path = "../Currencies"

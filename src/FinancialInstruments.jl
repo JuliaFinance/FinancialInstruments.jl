@@ -1,8 +1,11 @@
 module FinancialInstruments
 
 using Dates
-using Currencies
-export FinancialInstrument, Cash, Currencies
+using Countries 
+
+export Currencies, Currency
+export Countries, Country
+export FinancialInstrument, Cash
 
 abstract type FinancialInstrument end
 
